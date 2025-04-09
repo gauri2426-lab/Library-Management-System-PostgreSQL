@@ -1,0 +1,15 @@
+## 📌 Executive Summary
+
+The **Library Management System** project was developed to simulate and manage the daily operations of a typical library using SQL. This end-to-end solution involved designing the database schema, implementing CRUD operations, and performing complex SQL queries for data analysis and reporting. Through this project, I gained a comprehensive understanding of relational databases and sharpened my skills in writing efficient and scalable SQL code.
+
+### ✅ What I Learned:
+
+- **Database Design & Normalization:** Created an efficient schema including multiple interrelated tables such as `books`, `members`, `employees`, `branches`, `issued_status`, and `return_status`, ensuring data integrity through the use of primary and foreign keys.
+- **SQL Proficiency:** Strengthened my command over SQL by performing real-world tasks such as data insertion, updates, deletions, and retrievals.
+- **Advanced SQL Techniques:** Applied advanced SQL operations like `JOIN`, `GROUP BY`, subqueries, and conditional aggregation to generate meaningful insights and reports.
+- **CTAS (Create Table As Select):** Leveraged CTAS to dynamically build summary tables for performance and business reporting.
+- **Stored Procedures:** Developed reusable and maintainable logic using `PL/pgSQL` stored procedures to automate book issuance and returns, including status updates and exception handling.
+- **Data Analysis & Reporting:** Extracted insights like overdue fines, active member trends, branch performance metrics, and top-performing employees based on book issuance.
+- **Problem Solving & Optimization:** Identified edge cases such as overdue books and books not returned, and implemented logic to handle such scenarios effectively.
+
+Overall, this project deepened my understanding of database architecture, enhanced my problem-solving skills using SQL, and demonstrated how structured data can be turned into actionable insights in a real-world system.
